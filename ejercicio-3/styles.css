@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #faebd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width:100%;
+    background: #b8ad9f;
+    padding: 1rem;
+}
+
+section{
+    padding: 1rem;
+}
+
