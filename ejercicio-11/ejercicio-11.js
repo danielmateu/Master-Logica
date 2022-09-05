@@ -5,7 +5,7 @@ const censurado = (texto,busqueda) => {
     let resultado = '';
 
     if(typeof texto === 'string' && typeof busqueda === 'string'){
-        let palabras = texto.toLowerCase().split(' ');
+        let palabras = texto.toLowerCase().split(' ')
         // console.log(palabras)
         
         for(let palabra of palabras) {
