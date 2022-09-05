@@ -1,15 +1,9 @@
-# Dado un ´numero, mostrar una escalera con escalones de "[-]" usando el número para los niveles de la escalera
+# Dado un texto y una busqueda, censurar todas las coincidencias de la búsqueda en el texto con [-Censurado].
+
+Si el texto y la búsqueda están vacios, mostrar "No puedes leer el texto y la búsqueda" en el caso que ambos parámetros no lleguen.
 
 Ejemplos:
 
-escalera(4) // devuelve:
-
-[-]
-[-][-]
-[-][-][-]
-[-][-][-][-]
-
-1- Debemos crear una funcion que reciba el número
-2- Debemos recorrer el número de niveles de la escalera
-3- En cada iteración debemos de pintar los escalones de ese niveles
-4- Haciendo un bucle desde 1 hasta el nivel en el que estamos
+censurado('hola hola', 'hola') // devuelve: [-Censurado] [-Censurado];
+censurado() // devuelve: No puedes leer el texto y la búsqueda 
+censurado('hola') // No puedes hacer la búsqueda
