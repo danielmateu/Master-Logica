@@ -2,13 +2,10 @@
 
 const vocales = (myString) => {
 
-    let numVocales = 0;
-
-    let letras = myString.split(' ');
-    console.log(letras)
-
-
+    let coincidencias = myString.match(/[aeiou]/gi).length
+    
+    return `La frase tiene ${coincidencias} vocales`
 }
 
-
-console.log(vocales('daniel mateu pardo'))
+console.log(vocales('daniel mateu pardo'));
+    
