@@ -1,4 +1,4 @@
-# Enunciado Ejercicio 19:
+# Enunciado Ejercicio 20:
 
 Dados dos cadenas de texto , crear un algoritmo que compruebe
 si son anagramas entre si .
