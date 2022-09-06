@@ -70,7 +70,7 @@ Dado un array de objetos de peliculas ( titulo , director , vista )
 mostrar todas Las peliculas indicando cual has visto y
 cual no .
 
-# Enunciado Ejercicio 19:
+# Ejercicio 20:
 
 Dados dos cadenas de texto , crear un algoritmo que compruebe
 si son anagramas entre si .
