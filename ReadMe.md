@@ -52,3 +52,30 @@ Dada una cadena de texto , devolver el caracter más usado .
 # Ejercicio 16:
 Dada una cadena de texto , devolver cuantas vocales
 ( a , e , i , o , u ) tiene .
+
+# Ejercicio 17:
+
+Dado un número , mostrar Los números de 1 hasta el número .
+Pero para múltiplos de tres imprimir " buzz " en Lugar del número
+y para los múltiplos de cinco imprimir " lightyear " .
+Para múltiplos de tres y cinco imprimir " Buzz Lightyear " .
+
+# Ejercicio 18:
+
+Dado un número, mostrar todos sus números divisores
+
+# Ejercicio 19:
+
+Dado un array de objetos de peliculas ( titulo , director , vista )
+mostrar todas Las peliculas indicando cual has visto y
+cual no .
+
+# Enunciado Ejercicio 19:
+
+Dados dos cadenas de texto , crear un algoritmo que compruebe
+si son anagramas entre si .
+
+Una cadena es un anagrama de otra si usa Los mismos caracteres
+en la misma cantidad .
+
+No tener en cuenta espacios , simbolos raros , puntos , etc.
