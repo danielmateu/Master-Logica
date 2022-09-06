@@ -48,3 +48,7 @@ como el número indique .
 
 # Ejercicio 15:
 Dada una cadena de texto , devolver el caracter más usado .
+
+# Ejercicio 16:
+Dada una cadena de texto , devolver cuantas vocales
+( a , e , i , o , u ) tiene .
