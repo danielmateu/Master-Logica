@@ -1,4 +1,5 @@
-// Dado un numero, devolver true si es capicua y false si no lo es
+// Dado un numero, devolver su factorial
+
 
 
 // Obtener el valor del input
@@ -19,31 +20,22 @@ form.addEventListener("submit", (event) => {
     // const number = input.value;
     const number = parseInt(input.value);
 
-    // Obtener si es capicua
-    const capicuaNumber = capicua(number);
+    // Obtener el factorial
+    const factorialNumber = factorial(number);
 
     // Mostrar el resultado
-    result.innerHTML = capicuaNumber;
-    
+    result.innerHTML = factorialNumber;
+
 });
 
-// funcion para valorar si es capicua
-const capicua = (number) => {
-    
-    let capicua = false;
-    let numberString = number.toString();
-    let numberStringReverse = numberString.split("").reverse().join("");
-
-    if (numberString === numberStringReverse) {
-        capicua = true;
-    }   
-
-    return capicua;
+// funcion para obtener el factorial
+const factorial = (number) => {
+    let factorial = 1;
+    for (let i = 1; i <= number; i++) {
+        factorial *= i;
+    }
+    return factorial;
 }
-
-
-
-
 
 
 
