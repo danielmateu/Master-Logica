@@ -1,5 +1,8 @@
 // Dado un número, devolver su tabla de multiplicar completa.
 
+// Ejemplo:
+// multiplicacion(5) => 5 * 0 = 0
+
 
 
 const multiplicationTable = (num) => {
